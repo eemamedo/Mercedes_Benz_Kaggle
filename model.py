@@ -46,14 +46,6 @@ def model (algorithm, X_train, X_test, y_train):
             r2_score_test = r2_score(y_test_folded, xgb_pred_test)
             r2_scores_test.append(r2_score_test)
             
-             #checking feature importance
-#            print (xgb_model.feature_importances_)
-#            plt.figure(figsize=(12,25))
-                
-#            imp = pd.DataFrame({'Feature': X_train_folded, 'Importance':xgb.feature_importances_}).sort_values('Importance')
-#            plt.barh(range(len(X_train_folded)), imp.Importance)
-#            plt.yticks(range(len(X_train_folded)), imp.Feature)
-#            plt.show()  
             
         print ('\n R2 score for training: %.3f' % np.mean(r2_scores_train), 
                '\n R2 score for testing: %.3f' % np.mean(r2_scores_test))
