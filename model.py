@@ -121,4 +121,3 @@ def model (algorithm, X_train, X_test, y_train):
 
   
 
-# To find the best parameters, look here https://www.kaggle.com/den3b81/elasticnet-lb-0-547-and-feature-importance
