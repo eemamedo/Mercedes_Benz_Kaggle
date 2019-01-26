@@ -3,4 +3,6 @@ Kaggle competition consisting of predicting the time a car will spend on a test 
 url: https://www.kaggle.com/c/mercedes-benz-greener-manufacturing
 
 The following algorithms have been tried:
-* Item 1
+* XGBoost
+* Random Forest
+* Decision Tree
