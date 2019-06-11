@@ -3,6 +3,5 @@ Kaggle competition consisting of predicting the time a car will spend on a test 
 url: https://www.kaggle.com/c/mercedes-benz-greener-manufacturing
 
 The following algorithms have been tried:
-* XGBoost
+* Neural Network (RS to find parameters and stand-alone run with 5 K-Folds)
 * Random Forest
-* Decision Tree
